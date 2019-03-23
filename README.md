@@ -1,5 +1,7 @@
 # ECCV_2018_segmentation-
 自己找了ECCV 2018 关于 semantic segmentation、 instance segmentation、video相关的文章，做了点笔记，写了点感想。
+
+——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 PersonLab: Person Pose Estimation and Instance Segmentation with a Bottom-Up, Part-Based, Geometric Embedding Model
 
 Work：box free bottom-up approach for the task of pose estimation and instance segmentation of
