@@ -12,7 +12,7 @@ result：COCO test-dev keypoint average precision of 0.665 using single-scale in
  
 method：Hough voting of multiple predictions(通过一定的规则把 False positive剔除 如在 Depth-Encoded Hough Voting for Joint ObjectDetection and Shape Recovery 就是利用物体的景深排出 错误预测点提高准确率) 未详细讲解
 OKS score  目前最为常用的就是OKS（Object Keypoint Similarity）指标，这个指标启发于目标检测中的IoU指标，目的就是为了计算真值和预测人体关键点的相似度。
-![image](http://github.com/ygjwd12345/ECCV_2018_segmentation-/img/pasted image 0.png)
+![image](https://github.com/ygjwd12345/ECCV_2018_segmentation-/img/pasted image 0.png)
 
 Expected-OKS score 算区域 新的 sore 方法 基于OKS 着实没看懂
 但大义应该是计算了short-range offset的 Hough score应用于关键点检测 pose estimation，再基于 long-range offests的 OKS sore 实现了 instance segmentation，但OKS是计算关键点的怎么用于segmentation 还有那个积分公式没看懂
@@ -290,7 +290,7 @@ result our approach significantly outperforms prior state-of-the-art methods on 
 
 method Our approach takes both RGB and flow video clips as input streams, leveraging information from both appearance and motion in the video.
 
-!image(http://github.com/ygjwd12345/ECCV_2018_segmentation-/img/pasted image 0 (1).png)
+![image](https://github.com/ygjwd12345/ECCV_2018_segmentation-/img/pasted image 0 (1).png)
 
 Appearance Backbone Feature Pyramid Network (FPN)
 Region Proposal Network. like mask rcnn
