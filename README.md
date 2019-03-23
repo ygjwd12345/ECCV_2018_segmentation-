@@ -346,7 +346,10 @@ segmentation 领域论文数量一共23篇，数量不小，仍属于热点话�
 存在的问题是：
 1.现在的加速学习基本上没有太多的横向可比性，更多的是在image 的FPS 并非我们意义上的video的FPS，因为数据集的问题，在video dataset的数据集 我看到的都是以mask rcnn为backbone，也就是说在传统的segmentation net 没有真正的想 video转化，只是提高了处理速度，这个地方要借鉴 mask rcnn的经验 将segmentation net 真正能处理 video是一个非常有前景的方向。
 还有数据集上，DAVIS数据集的video分割是没有太多认作，而原来很火的KITTI数据集做自动驾驶的更已经无人问津，这些具有特别鲜明的应用场景的数据集，应当被测试发出好文章。
+
 2.现在的instance segmentation更多的是 light model的考虑，对于 instance segmentation的精度问题很少讨论，而且 instance segmentation中就要有detection的部分，能实现 多少的IoU 和 能够在多目标的情况下识别多少目标都是测量标准，但是现在的instance segmentation问题中很少讨论，在instance中要借鉴一下detection的标准，这个工作也很有意义。
+
 3.在domain adaptation ，和未知事物的分割出现了但是工作较少。
+
 4.在video的一个简单的问题 1080P高像素视频处理问题，还没有得到真正的解决。
 
